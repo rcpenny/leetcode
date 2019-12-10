@@ -1,6 +1,6 @@
 // Populating Next Right Pointers in Each Node
 
-// challenge: 你只能使用常量级额外空间
+// challenge: 使用常量级额外空间
 
 @MEDIUM
 class LC116 {
