@@ -9,10 +9,10 @@ class LC1 {
     Map<Integer, Integer> numToIndex = new HashMap<>();
 
     for (int i = 0; i < nums.length; i++) {
-      int sub = target - nums[i];
+      int comp = target - nums[i]; // complement number
 
-      if (numToIndex.containsKey(sub)) {
-        result[0] = numToIndex.get(sub);
+      if (numToIndex.containsKey(comp)) {
+        result[0] = numToIndex.get(comp);
         result[1] = i;
         break;
       }
