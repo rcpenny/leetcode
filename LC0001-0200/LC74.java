@@ -1,5 +1,6 @@
 // Search a 2D Matrix
 
+@MEDIUM
 class LC74 {
 
   @BinarySearch
