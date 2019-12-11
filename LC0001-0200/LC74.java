@@ -1,7 +1,7 @@
 // Search a 2D Matrix
 
 @MEDIUM
-class LC74 {
+public class LC74 {
 
   @BinarySearch
   public boolean searchMatrix(int[][] matrix, int target) {

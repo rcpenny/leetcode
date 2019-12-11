@@ -1,7 +1,7 @@
 // Two Sum
 
 @EASY
-class LC1 {
+public class LC1 {
 
   @HashTable
   public int[] twoSum(int[] nums, int target) {

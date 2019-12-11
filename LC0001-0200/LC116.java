@@ -3,7 +3,7 @@
 // challenge: 使用常量级额外空间
 
 @MEDIUM
-class LC116 {
+public class LC116 {
 
   @Recursive
   public Node connect1(Node root) {

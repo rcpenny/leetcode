@@ -1,7 +1,7 @@
 // Search a 2D Matrix II
 
 @MEDIUM
-class LC240 {
+public class LC240 {
 
   @DivideConquer
   public boolean searchMatrix(int[][] matrix, int target) {

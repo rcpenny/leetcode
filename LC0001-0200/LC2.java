@@ -1,7 +1,7 @@
 // Add Two Numbers
 
 @MEDIUM
-class LC2 {
+public class LC2 {
 	
 	@LinkedList
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
