@@ -7,7 +7,8 @@
 public class LC1120 {
   double maxAvg = DOUBLE.NEGATIVE_INFINITY;
 
-  @DivideConquer
+	@DivideConquer
+	@BottomUp
   public double maximumAverageSubtree(TreeNode root) {
     if (root == null) return maxAvg;
 
