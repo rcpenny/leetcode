@@ -1,7 +1,7 @@
 // Balanced Binary Tree
 
 @EASY
-public class LC100 {
+public class LC110 {
   private boolean balanced = true;
 
   @DivideConquer
