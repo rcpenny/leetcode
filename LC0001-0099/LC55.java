@@ -1,11 +1,22 @@
 // Jump Game
 
+// [3,2,1,0,4] 输出: false
+
 @MEDIUM
 public class LC55 {
 
 	@Greedy
 	public boolean canJump(int[] nums) {
+		int furthest = nums[0];
+		int i = 0;
 
+		while (i <= furthest) {
+			furthest = Math.max(furthest, i + nums[i]);
+			if (furthest >= nums.length - 1) return true;
+			i++;
+		}
+
+		return false;
 	}
 
 	@DynamicProgramming
