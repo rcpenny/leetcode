@@ -4,7 +4,6 @@
 public class LC322 {
   
   @DynamicProgramming
-  @Sequence
   public int coinChange(int[] coins, int amount) {
     Arrays.sort(coins);
 
