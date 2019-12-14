@@ -3,7 +3,7 @@
 @EASY
 public class LC20 {
 
-  @StackDesign
+  @Stack
   public boolean isValid(String s) {
     if (s == null) return false;
 
