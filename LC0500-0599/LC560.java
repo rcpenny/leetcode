@@ -11,7 +11,7 @@ public class LC560 {
 		int count = 0;
 		int n = nums.length;
 		
-		// prefix_sum -> freq
+		// prefix_sum -> occurance
 		Map<Integer, Integer> map = new HashMap<>();
 
 		int[] prefix = new int[n + 1];
