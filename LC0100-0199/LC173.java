@@ -5,7 +5,7 @@ class BSTIterator {
 
   Stack<TreeNode> stack;
 
-  @DataStructStack
+  @IteratorDesign
   public BSTIterator(TreeNode root) {
     stack = new Stack<>();
     pushToStack(root, stack);
