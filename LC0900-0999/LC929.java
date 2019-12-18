@@ -15,7 +15,7 @@ public class LC929 {
 			if (alias.contains("+")) {
 				alias = alias.substring(0, alias.indexOf('+'));
 			}
-			alias = alias.replaceAll(".", "");
+			alias = alias.replace(".", "");
 			seen.add(alias + domain);
 		}
 
