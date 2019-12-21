@@ -1,6 +1,7 @@
 // Maximum Subarray
 
 @EASY
+@Microsoft
 public class LC53 {
 
   @DynamicProgramming
