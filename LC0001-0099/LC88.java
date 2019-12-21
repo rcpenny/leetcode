@@ -1,6 +1,7 @@
 // Merge Sorted Array
 
 @EASY
+@Microsoft
 public class LC88 {
 
   @TwoPointers

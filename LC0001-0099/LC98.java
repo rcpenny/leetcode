@@ -1,6 +1,7 @@
 // Validate Binary Search Tree
 
 @MEDIUM
+@Microsoft
 class LC98 {
 
   @DivideConquer

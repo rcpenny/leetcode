@@ -1,6 +1,7 @@
 // Search in Rotated Sorted Array
 
 @MEDIUM
+@Microsoft
 public class LC33 {
   
   @BinarySearch
