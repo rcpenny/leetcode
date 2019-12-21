@@ -1,6 +1,7 @@
 // LRU Cache
 
 @MEDIUM
+@Microsoft
 public class LC146 {}
 
 class Node {

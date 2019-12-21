@@ -1,9 +1,10 @@
 // Implement Trie (Prefix Tree)
 
 @MEDIUM
-@Trie
+@Microsoft
 public class LC208 {}
 
+@Trie
 public class Trie {
 
   TrieNode root;
