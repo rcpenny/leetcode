@@ -1,6 +1,7 @@
 // Copy List with Random Pointer
 
 @MEDIUM
+@Microsoft
 public class LC138 {
 
   @LinkedList

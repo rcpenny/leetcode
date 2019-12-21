@@ -1,6 +1,7 @@
 // Reverse Linked List
 
 @EASY
+@Microsoft
 public class LC206 {
   
   @LinkedList

@@ -1,6 +1,7 @@
 // Add Two Numbers
 
 @MEDIUM
+@Microsoft
 public class LC2 {
 	
 	@LinkedList

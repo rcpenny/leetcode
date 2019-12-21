@@ -1,6 +1,7 @@
 // Merge Two Sorted Lists
 
 @EASY
+@Microsoft
 class LC21 {
 
   @LinkedList

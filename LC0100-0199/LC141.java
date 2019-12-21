@@ -1,6 +1,7 @@
 // Linked List Cycle
 
 @EASY
+@Microsoft
 public class LC141 {
 
   @TwoPointers

@@ -1,6 +1,7 @@
 // Merge k Sorted Lists
 
 @HARD
+@Microsoft
 public class Solution {
   
   @LinkedList
