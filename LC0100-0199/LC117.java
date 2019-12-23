@@ -1,35 +1,11 @@
-// Populating Next Right Pointers in Each Node
-
-// challenge: 使用常量级额外空间
+// Populating Next Right Pointers in Each Node II
 
 @MEDIUM
 @Microsoft
-public class LC116 {
+class LC117 {
 
-  @Recursive
-  public Node connect1(Node root) {
-    if (root == null) return root;
-
-    Node left = root.left;
-    Node right = root.right;
-
-    // 像拉拉链！
-    while (left != null) {
-      left.next = right;
-      left = left.right;
-      right = right.left;
-    }
-
-    connect1(root.left);
-    connect1(root.right);
-
-    return root;
-  }
-
-
-  
   @BFS
-  public Node connect2(Node root) {
+  public Node connect(Node root) {
     if (root == null) return root;
 
     Queue<Node> queue = new LinkedList<>();
@@ -50,6 +26,9 @@ public class LC116 {
 
         if (cur.left != null) {
           queue.offer(cur.left);
+        }
+
+        if (cur.right != null) {
           queue.offer(cur.right);
         }
       }
