@@ -1,10 +1,12 @@
 // Serialize and Deserialize Binary Tree
 
-@MEDIUM
+@HARD
 @Microsoft
 public class Codec {
 
   @BFS
+  @Tree
+  @Design
   public String serialize(TreeNode root) {
     if (root == null) return "{}";
 
