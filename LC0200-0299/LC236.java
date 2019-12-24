@@ -1,6 +1,7 @@
 // Lowest Common Ancestor of a Binary Tree
 
 @MEDIUM
+@Microsoft
 public class LC236 {
 
   @DivideConquer

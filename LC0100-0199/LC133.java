@@ -1,6 +1,7 @@
 // Clone Graph
 
 @MEDIUM
+@Microsoft
 public class LC133 {
 
 	@Graph

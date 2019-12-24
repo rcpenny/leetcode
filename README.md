@@ -6,6 +6,11 @@
 console.log(document.getElementsByClassName("text-success").length);
 ```
 
+## CLRS
+如何正确地撸《算法导论》？ - gycg的回答 - 知乎
+https://www.zhihu.com/question/56904981/answer/151256356
+
+
 Source: Scaling up to your first 10 million users
 https://www.youtube.com/watch?v=w95murBkYmU
 
