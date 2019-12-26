@@ -1,6 +1,7 @@
 // Diameter of Binary Tree
 
 @EASY
+@Google
 class LC543 {
   int max = Integer.MIN_VALUE;
 

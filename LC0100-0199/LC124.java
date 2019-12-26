@@ -1,6 +1,7 @@
 // Binary Tree Maximum Path Sum
 
 @HARD
+@Google
 public class LC124 {
   int max = Integer.MIN_VALUE;
 
