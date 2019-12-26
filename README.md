@@ -1,5 +1,6 @@
 ## TODO
 力克扣 午溜拔，原题
+LC261 after graph chapter
 
 ## count of accepted
 ```js
