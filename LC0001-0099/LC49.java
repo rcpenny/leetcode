@@ -25,4 +25,6 @@ public class LC49 {
     
     return result;
   }
+
+  // method 2：abbccc -> ＃1＃2＃3＃0＃0＃0 ...＃0 int[] count = new int[26]
 }
