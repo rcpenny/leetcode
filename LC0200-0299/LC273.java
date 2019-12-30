@@ -11,6 +11,7 @@ public class LC273 {
       
   String[] OVER_THOUSAND = {"", "Thousand", "Million", "Billion"};
 	
+  @Array
   public String numberToWords(int num) {
     if (num == 0) return "Zero";
 
