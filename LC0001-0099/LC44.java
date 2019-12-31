@@ -1,6 +1,5 @@
 // Wildcard Matching
 
-
 @HARD
 @Microsoft
 public class LC44 {
