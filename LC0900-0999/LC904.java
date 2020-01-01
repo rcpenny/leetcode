@@ -1,4 +1,4 @@
-// Fruits into Baskets
+// Fruit into Baskets
 
 @MEDIUM
 @Google

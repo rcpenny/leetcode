@@ -2,6 +2,7 @@
 
 @MEDIUM
 @Microsoft
+@Google
 public class LC146 {}
 
 class Node {
