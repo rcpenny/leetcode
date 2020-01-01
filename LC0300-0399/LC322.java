@@ -1,6 +1,7 @@
 // Coin Change
 
 @MEDIUM
+@Google
 public class LC322 {
   
   @DynamicProgramming
