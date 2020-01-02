@@ -10,25 +10,25 @@ public class LC34 {
     
     int start = 0, end = A.length - 1;
     while (start + 1 < end) {
-      int middle = start + (end - start) / 2;
-      if (A[middle] >= target) end = middle;
-      else start = middle;
+      int mid = start + (end - start) / 2;
+      if (A[mid] >= target) end = mid;
+      else start = mid;
     }
 
     if (A[start] == target) result[0] = start;
     else if (A[end] == target) result[0] = end;
     else return result;
-    
-    int start_ = 0, end_ = A.length - 1;
-    while (start_ + 1 < end_) {
-      int middle_ = start_ + (end_ - start_) / 2;
-      if (A[middle_] <= target) start_ = middle_;
-      else end_ = middle_;
+
+
+    while (start + 1 < end) {
+      int mid = start + (end - start) / 2;
+      if (A[mid] <= target) start = mid;
+      else end = mid;
     }
     
-    if (A[end_] == target) result[1] = end_;
-    else if (A[start_] == target) result[1] = start_;
+    if (A[end] == target) result[1] = end;
+    else if (A[start] == target) result[1] = start;
     
     return result;
-  } 
+  }
 }
