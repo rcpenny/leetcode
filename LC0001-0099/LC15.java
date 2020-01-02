@@ -7,7 +7,7 @@ class LC15 {
   @TwoPointers
   public List<List<Integer>> threeSum(int[] nums) {
     List<List<Integer>> result = new  ArrayList<>();
-    if (numbers == null || numbers.length < 3) return result;
+    if (nums == null || nums.length < 3) return result;
 
     Arrays.sort(nums);
 
