@@ -6,9 +6,14 @@ public class LC34 {
   @BinarySearch
   public int[] searchRange(int[] A, int target) {
     int[] result = {-1, -1};
-    if (A == null || A.length == 0) return result;
+
+    if (A == null || A.length == 0) {
+      return result;
+    }
     
-    int start = 0, end = A.length - 1;
+    int start = 0;
+    int end = A.length - 1;
+
     while (start + 1 < end) {
       int mid = start + (end - start) / 2;
       if (A[mid] >= target) end = mid;
@@ -19,6 +24,8 @@ public class LC34 {
     else if (A[end] == target) result[0] = end;
     else return result;
 
+    start = 0;
+    end = A.length - 1;
 
     while (start + 1 < end) {
       int mid = start + (end - start) / 2;
