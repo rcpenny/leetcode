@@ -1,7 +1,6 @@
-// Validate Binary Search Tree
+// Validate Binary Search Tree 验证二叉搜索树
 
 @MEDIUM
-@Microsoft
 class LC98 {
 
   @DivideConquer
