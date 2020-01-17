@@ -4,6 +4,7 @@
 public class LC144 {
 
   @Iterative
+  @Stack
   public List<Integer> preorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     Stack<TreeNode> stack = new Stack<>();
