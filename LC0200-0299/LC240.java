@@ -1,7 +1,6 @@
-// Search a 2D Matrix II
+// Search a 2D Matrix II 搜索二维矩阵 II
 
 @MEDIUM
-@Microsoft
 public class LC240 {
 
   @BinarySearch
