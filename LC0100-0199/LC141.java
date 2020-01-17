@@ -1,4 +1,4 @@
-// Linked List Cycle
+// Linked List Cycle 环形链表
 
 @EASY
 @Microsoft
@@ -20,5 +20,3 @@ public class LC141 {
     return false;
   }
 }
-
-
