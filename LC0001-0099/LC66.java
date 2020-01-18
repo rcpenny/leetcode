@@ -1,7 +1,6 @@
-// Plus One
+// Plus One 加一
 
 @EASY
-@Google
 public class LC66 {
 
   @Array
