@@ -1,7 +1,6 @@
-// Copy List with Random Pointer
+// Copy List with Random Pointer 复制带随机指针的链表
 
 @MEDIUM
-@Microsoft
 public class LC138 {
 
   @LinkedList
