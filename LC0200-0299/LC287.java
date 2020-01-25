@@ -1,12 +1,6 @@
-// Find the Duplicate Number
-
-// assume the array is read only
-// use only constant, O(1) extra space
-// runtime complexity should be less than O(n2).
-// only one duplicate number in the array, but it could be repeated more than once.
+// Find the Duplicate Number 寻找重复数
 
 @MEDIUM
-@Microsoft
 public class LC287 {
 
   @BinarySearch
