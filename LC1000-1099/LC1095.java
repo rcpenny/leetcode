@@ -1,4 +1,4 @@
-// Find in Mountain Array
+// Find in Mountain Array 山脉数组中查找目标值
 
 @HARD
 public class LC1095 {
