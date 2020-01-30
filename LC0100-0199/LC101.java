@@ -1,4 +1,4 @@
-// Symmetric Tree
+// Symmetric Tree 对称二叉树
 
 @EASY
 public class LC101 {
@@ -18,6 +18,3 @@ public class LC101 {
     return mirrorCompare(a.left, b.right) && mirrorCompare(a.right, b.left);
   }
 }
-
-
-
