@@ -1,4 +1,4 @@
-// Binary Tree Inorder Traversal
+// Binary Tree Inorder Traversal 二叉树的中序遍历
 
 @MEDIUM
 public class LC94 {
