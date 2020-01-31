@@ -1,4 +1,4 @@
-// Course Schedule
+// Course Schedule 课程表
 
 @MEDIUM
 public class LC207 {
