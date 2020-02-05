@@ -1,7 +1,6 @@
-// Maximum Subarray
+// Maximum Subarray 最大子序和
 
 @EASY
-@Microsoft
 public class LC53 {
 
   @DynamicProgramming
