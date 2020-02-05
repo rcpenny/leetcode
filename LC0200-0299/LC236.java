@@ -1,4 +1,4 @@
-// Lowest Common Ancestor of a Binary Tree
+// Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先
 
 @MEDIUM
 @Microsoft
@@ -7,36 +7,14 @@ public class LC236 {
   @DivideConquer
   @BottomUp
   public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-    return bottomUp(root, p, q).ancestor;
-  }
+    if (root == null) return null;
+    if (root == p || root == q) return root;
 
-  private Info bottomUp(TreeNode node, TreeNode p, TreeNode q) {
-    if (node == null) return new Info(false, false, null);
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
 
-    Info left = bottomUp(node.left, p, q);
-    Info right = bottomUp(node.right, p, q);
+    if (left != null && right != null) return root;
 
-    if (left.ancestor != null) return left;
-    if (right.ancestor != null) return right;
-
-    boolean pFound = left.pFound || right.pFound || node.val == p.val;
-    boolean qFound = left.qFound || right.qFound || node.val == q.val;
-    TreeNode ancestor = (pFound && qFound) ? node : null;
-
-    return new Info(pFound, qFound, ancestor);
-  }
-
-  class Info {
-    boolean pFound;
-    boolean qFound;
-    TreeNode ancestor;
-
-    Info(boolean pFound, boolean qFound, TreeNode ancestor) {
-      this.pFound = pFound;
-      this.qFound = qFound;
-      this.ancestor = ancestor;
-    }
+    return left != null ? left : right;
   }
 }
-
-
