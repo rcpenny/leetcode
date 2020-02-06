@@ -1,4 +1,4 @@
-// Longest Substring Without Repeating Characters
+// Longest Substring Without Repeating Characters 无重复字符的最长子串
 
 @MEDIUM
 public class LC3 {
