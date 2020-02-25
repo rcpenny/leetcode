@@ -1,7 +1,6 @@
-// Maximum Product Subarray
+// Maximum Product Subarray 乘积最大子序列
 
 @MEDIUM
-@Google
 public class LC152 {
   
   @DynamicProgramming
