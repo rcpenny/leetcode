@@ -1,9 +1,9 @@
-// Number of Islands
+// Number of Islands 岛屿数量
 
-class Coordinate {
+class Point {
   int x;
   int y;
-  public Coordinate(int x, int y) {
+  public Point(int x, int y) {
     this.x = x;
     this.y = y;
   }
@@ -40,14 +40,14 @@ public class LC200 {
   }
 
   private void traverseIslands(char[][] grid, int x, int y) {
-		Queue<Coordinate> queue = new LinkedList<Coordinate>();
+		Queue<Point> queue = new LinkedList<Point>();
 		grid[x][y] = SEA;
-    queue.offer(new Coordinate(x, y));
+    queue.offer(new Point(x, y));
 
     while (!queue.isEmpty()) {
-      Coordinate coor = queue.poll();
+      Point coor = queue.poll();
       for (int i = 0; i < 4; i++) {
-        Coordinate adj = new Coordinate(coor.x + dx[i], coor.y + dy[i]);
+        Point adj = new Point(coor.x + dx[i], coor.y + dy[i]);
 				if (!inBound(adj, grid)) continue;
 					grid[adj.x][adj.y] = SEA;
           queue.offer(adj);
@@ -55,7 +55,7 @@ public class LC200 {
     }
   }
 
-  private boolean inBound(Coordinate coor, char[][] grid) {
+  private boolean inBound(Point coor, char[][] grid) {
 		return 0 <= coor.x && coor.x < row && 0 <= coor.y && coor.y < col
 			&& grid[coor.x][coor.y] == ISLAND;
   }
