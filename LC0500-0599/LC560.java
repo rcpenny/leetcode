@@ -1,4 +1,4 @@
-// Subarray Sum Equals K
+// Subarray Sum Equals K 和为K的子数组
 
 @MEDIUM
 public class LC560 {
@@ -11,7 +11,6 @@ public class LC560 {
 		int count = 0;
 		int n = nums.length;
 		
-		// prefix_sum -> occurance
 		Map<Integer, Integer> map = new HashMap<>();
 
 		int[] prefix = new int[n + 1];
