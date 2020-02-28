@@ -1,17 +1,12 @@
-// Graph Valid Tree
+// Graph Valid Tree 以图判树
 
 @MEDIUM
-@Google
 class LC261 {
-
-  @BFS
-  public boolean validTree(int n, int[][] edges) {
-    if (edges.length != n - 1) return false;
-
-  }
 
   @UnionFind
   public boolean validTree2(int n, int[][] edges) {
+
+		// 树的性质！
     if (edges.length != n - 1) return false;
 
     DisjointSet set = new DisjointSet(n);
@@ -27,11 +22,11 @@ class LC261 {
     int size;
     int[] parent;
 
-    DisjointSet(int size) {
-      this.size = size;
-      parent = new int[size];
+    DisjointSet(int N) {
+      size = N;
+      parent = new int[N];
 
-      for (int i = 0; i < size; i++)
+      for (int i = 0; i < N; i++)
         parent[i] = i;
     }
 
