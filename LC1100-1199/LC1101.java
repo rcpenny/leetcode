@@ -21,12 +21,10 @@ public class LC1101 {
 }
 
 class Friends {
-  int n;
   int circles;
   int[] leader;
 
   Friends(int N) {
-    n = N;
     circles = N;
     leader = new int[N];
 
