@@ -1,7 +1,6 @@
-// Best Time to Buy and Sell Stock
+// Best Time to Buy and Sell Stock 买卖股票的最佳时机
 
 @EASY
-@Microsoft
 class LC121 {
 
   @DynamicProgramming
