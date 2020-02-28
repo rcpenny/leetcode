@@ -1,8 +1,8 @@
-// Reverse Integer
+// Reverse Integer 整数反转
 
 @EASY
 public class LC7 {
-  
+
   @Math
   public int reverse(int x) {
     if (x == 0) return 0;
