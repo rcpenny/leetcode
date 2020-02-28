@@ -1,7 +1,6 @@
-// Min Stack
+// Min Stack 最小栈
 
 @EASY
-@Google
 public class LC155 {}
 
 @Design
