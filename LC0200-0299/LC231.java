@@ -1,5 +1,6 @@
 // Power of Two 2的幂
 
+@EASY
 public class LC231 {
 
 	@BitManipulation
