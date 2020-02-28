@@ -1,5 +1,6 @@
 // Friends Cricle 朋友圈
 
+@MEDIUM
 public class LC547 {
 
   @UnionFind
