@@ -3,7 +3,7 @@
 @EASY
 public class LC122 {
   
-  Greedy
+  @Greedy
   public int maxProfit(int[] prices) {
     int profit = 0;
 
