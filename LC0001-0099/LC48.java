@@ -1,4 +1,4 @@
-// Rotate Image
+// Rotate Image 旋转图像
 
 @MEDIUM
 public class LC48 {
