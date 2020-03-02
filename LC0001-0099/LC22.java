@@ -1,4 +1,4 @@
-// Generate Parentheses
+// Generate Parentheses 括号生成
 
 @MEDIUM
 public class LC22 {
