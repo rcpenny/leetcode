@@ -1,7 +1,6 @@
-// Search in Rotated Sorted Array
+// Search in Rotated Sorted Array 搜索旋转排序数组
 
 @MEDIUM
-@Microsoft
 public class LC33 {
   
   @BinarySearch
