@@ -1,10 +1,10 @@
-// Insert Delete GetRandom O(1)
+// Insert Delete GetRandom O(1) 数时间插入、删除和获取随机元素
 
 @MEDIUM
 public class LC380 {}
 
 @HashTable
-@DesignProblem
+@Design
 class RandomizedSet {
 
 	List<Integer> list;

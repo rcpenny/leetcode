@@ -1,10 +1,10 @@
-// Reverse Linked List
+// Reverse Linked List 反转链表
 
 @EASY
-@Microsoft
 public class LC206 {
   
   @LinkedList
+  @Iterative
   public ListNode reverseList(ListNode head) {
     ListNode pre = null;
     ListNode cur = head;
@@ -19,5 +19,21 @@ public class LC206 {
     }
 
     return pre; 
+  }
+
+  @Recursive
+  public ListNode reverseList(ListNode head) {
+    if (head == null || head.next == null) {
+      return head;
+    }
+
+    ListNode node = reverseList(head.next);
+
+    // 这个解决上一个recursive call的 head.next = null
+    head.next.next = head;
+
+    head.next = null;
+
+    return node;
   }
 }
