@@ -1,4 +1,4 @@
-// Find First and Last Position of Element in Sorted Array
+// Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置
 
 @MEDIUM
 public class LC34 {
