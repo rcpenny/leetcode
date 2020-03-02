@@ -1,4 +1,4 @@
-// Valid Parentheses
+// Valid Parentheses 有效的括号
 
 @EASY
 public class LC20 {
