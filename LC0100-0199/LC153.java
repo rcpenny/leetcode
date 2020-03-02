@@ -1,7 +1,6 @@
-// Find Minimum in Rotated Sorted Array
+// Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值
 
 @MEDIUM
-@Microsoft
 public class LC153 {
 
   @BinarySearch
