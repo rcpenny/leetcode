@@ -1,4 +1,4 @@
-// Maximum Depth of Binary Tree
+// Maximum Depth of Binary Tree 二叉树的最大深度
 
 @EASY
 public class LC104 {
