@@ -33,5 +33,3 @@ public class LC103 {
     return result;
   }
 }
-
-
