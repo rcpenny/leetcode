@@ -19,10 +19,8 @@ public class LC145 {
     result.add(node.val);
   }
 
-
+	// 后序遍历： 左 右 中 (出栈顺序) 倒置打印前序遍历
 	@Iterative
-	// 后序遍历： 左 右 中 (出栈顺序)
-	// 倒置打印前序遍历
 	public List<Integer> postorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
 		if (root == null) return result;
