@@ -1,4 +1,4 @@
-// Binary Tree Zigzag Level Order Traversal
+// Binary Tree Zigzag Level Order Traversal 二叉树的锯齿形层次遍历
 
 @MEDIUM
 public class LC103 {
@@ -11,6 +11,7 @@ public class LC103 {
     Queue<TreeNode> queue = new LinkedList<>();
     queue.offer(root);
 
+    boolean evenLevel = false;
     while (!queue.isEmpty()) {
       int size = queue.size();
 
@@ -24,6 +25,8 @@ public class LC103 {
         list.add(tmp.val);
       }
 
+      if (evenLevel) Collections.reverse(list);
+      evenLevel = !evenLevel;
       result.add(list);
     }
 
