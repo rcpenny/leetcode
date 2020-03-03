@@ -1,4 +1,4 @@
-// Two Sum II - Input array is sorted
+// Two Sum II - Input array is sorted 两数之和 II - 输入有序数组
 
 @EASY
 public class LC167 {
@@ -12,13 +12,18 @@ public class LC167 {
 
     while (left < right) {
       int sum = numbers[left] + numbers[right];
+
       if (sum == target) {
         result[0] = left + 1;
         result[1] = right + 1;
         break;
-      } else if (sum < target) {
+      } 
+			
+			else if (sum < target) {
         left++;
-      } else {
+      } 
+			
+			else {
         right--;
       }
     }
