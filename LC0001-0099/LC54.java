@@ -1,7 +1,6 @@
-// Spiral Matrix
+// Spiral Matrix 螺旋矩阵
 
 @MEDIUM
-@Microsoft
 public class LC54 {
 
   @Array
