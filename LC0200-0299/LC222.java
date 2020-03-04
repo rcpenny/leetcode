@@ -1,7 +1,6 @@
-// Count Complete Tree Nodes
+// Count Complete Tree Nodes 完全二叉树的节点个数
 
 @MEDIUM
-@Google
 public class LC222 {
 
   @Tree
