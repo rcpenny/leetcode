@@ -1,7 +1,6 @@
-// Merge Two Sorted Lists
+// Merge Two Sorted Lists 合并两个有序链表   
 
 @EASY
-@Microsoft
 class LC21 {
 
   @LinkedList
