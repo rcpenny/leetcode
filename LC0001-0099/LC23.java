@@ -1,11 +1,10 @@
-// Merge k Sorted Lists
+// Merge k Sorted Lists 合并K个排序链表
 
 @HARD
-@Microsoft
 public class Solution {
   
-  @LinkedList
   @Heap
+	@LinkedList
   public ListNode mergeKLists(ListNode[] lists) {
     ListNode dummy = new ListNode(0);
     ListNode tail = dummy;
