@@ -1,7 +1,6 @@
-// Longest Increasing Subsequence
+// Longest Increasing Subsequence 最长上升子序列 
 
 @MEDIUM
-@Microsoft
 public class LC300 {
 
   @DynamicProgramming
