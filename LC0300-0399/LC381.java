@@ -3,6 +3,7 @@
 @HARD
 public class LC381 {}
 
+@LinkedHashSet
 class RandomizedCollection {
   List<Integer> list;
   Map<Integer, Set<Integer>> numToIndexes;
