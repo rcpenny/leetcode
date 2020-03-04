@@ -1,4 +1,4 @@
-// Minimum Window Substring
+// Minimum Window Substring 最小覆盖子串
 
 @HARD
 public class LC76 {
