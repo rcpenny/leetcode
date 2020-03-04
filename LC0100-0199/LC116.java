@@ -1,9 +1,6 @@
-// Populating Next Right Pointers in Each Node
-
-// challenge: 使用常量级额外空间
+// Populating Next Right Pointers in Each Node 填充每个节点的下一个右侧节点指针
 
 @MEDIUM
-@Microsoft
 public class LC116 {
 
   @Recursive
@@ -27,7 +24,6 @@ public class LC116 {
   }
 
 
-  
   @BFS
   public Node connect2(Node root) {
     if (root == null) return root;
