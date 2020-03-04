@@ -1,7 +1,6 @@
-// Word Search
+// Word Search  单词搜索
 
 @MEDIUM
-@Microsoft
 public class LC79 {
   boolean found = false;
 
