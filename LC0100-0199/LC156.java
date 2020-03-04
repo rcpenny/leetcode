@@ -9,15 +9,13 @@ public class LC156 {
 	}
 
 	private TreeNode helper(TreeNode parent, TreeNode node) {
-		if (node == null) return parent; // 得到新的root node
+		if (node == null) return parent;
 
 		TreeNode newRoot = helper(node, node.left);
 
-		if (parent != null) {
-			node.left = parent.right;
-		} else {
-			node.left = null;
-		}
+		if (parent != null) node.left = parent.right;
+		else node.left = null;
+		
 		node.right = parent;
 
 		return newRoot;
