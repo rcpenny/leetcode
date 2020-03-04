@@ -1,11 +1,10 @@
-// Serialize and Deserialize Binary Tree
+// Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化
 
 @HARD
-@Microsoft
+@HighFreq
 public class Codec {
 
   @BFS
-  @Tree
   @Design
   public String serialize(TreeNode root) {
     if (root == null) return "{}";
