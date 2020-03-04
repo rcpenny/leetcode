@@ -12,7 +12,6 @@ public class LC366 {
     return leaves;
   }
 
-  // leave depth is 1
   private int getReversedDepth(TreeNode node, List<List<Integer>> leaves) {
     if (node == null) return 0;
 
