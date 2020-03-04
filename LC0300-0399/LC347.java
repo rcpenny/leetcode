@@ -1,10 +1,9 @@
-// Top K Frequent Elements
+// Top K Frequent Elements 前 K 个高频元素
 
 @MEDIUM
 public class LC347 {
 
   @Heap
-  @HashTable
   public List<Integer> topKFrequent(int[] nums, int k) {
 
     Map<Integer, Integer> map = new HashMap<>();
