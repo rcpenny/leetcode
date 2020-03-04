@@ -1,4 +1,4 @@
-// Isomorphic Strings
+// Isomorphic Strings 同构字符串  
 
 @EASY
 public class LC205 {
