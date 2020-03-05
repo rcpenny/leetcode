@@ -1,4 +1,4 @@
-// Two Sum
+// Two Sum 两数之和
 
 @EASY
 public class LC1 {
