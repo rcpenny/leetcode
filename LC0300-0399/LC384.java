@@ -1,7 +1,9 @@
 // Shuffle an Array 打乱数组
 
 @MEDIUM
-public class LC384 {
+public class LC284 {}
+
+public class ShuffleArray {
   private int[] nums;
   
 	@Array
