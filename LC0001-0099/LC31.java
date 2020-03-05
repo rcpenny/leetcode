@@ -1,4 +1,4 @@
-// Next Permutation
+// Next Permutation 下一个排列
 
 @MEDIUM
 public class LC31 {
