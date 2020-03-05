@@ -1,4 +1,4 @@
-// Merge Intervals
+// Merge Intervals 合并区间
 
 @MEDIUM
 public class LC56 {
