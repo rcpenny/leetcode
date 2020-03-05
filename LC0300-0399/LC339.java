@@ -1,0 +1,23 @@
+// Nested List Weight Sum 嵌套列表权重和
+
+@EASY
+public class LC339 {
+
+	@Backtracking
+  public int depthSum(List<NestedInteger> nestedList) {
+    return helper(nestedList, 1);
+	}
+
+	private int helper(List<NestedInteger> nestedList, int depth) {
+		if (nestedList == null || nestedList.size() == 0) return 0;
+		
+		int sum = 0;
+
+		for (NestedInteger ni : nestedList) {
+			if (ni.isInteger()) sum += ni.getInteger() * depth;
+			else sum += helper(ni.getList(), depth + 1);
+		}
+
+		return sum;
+	}
+}
