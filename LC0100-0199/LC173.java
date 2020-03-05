@@ -1,4 +1,4 @@
-//  Binary Search Tree Iterator
+// Binary Search Tree Iterator 二叉搜索树迭代器
 
 @MEDIUM
 class BSTIterator {
