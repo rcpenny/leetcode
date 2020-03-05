@@ -1,7 +1,6 @@
-// Binary Tree Maximum Path Sum
+// Binary Tree Maximum Path Sum 二叉树中的最大路径和
 
 @HARD
-@Google
 public class LC124 {
   int max = Integer.MIN_VALUE;
 
