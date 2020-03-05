@@ -1,7 +1,6 @@
-// Diameter of Binary Tree
+// Diameter of Binary Tree 二叉树的直径
 
 @EASY
-@Google
 class LC543 {
   int max = Integer.MIN_VALUE;
 
