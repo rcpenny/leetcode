@@ -1,6 +1,6 @@
-// Maximum Average Subtree
+// Maximum Average Subtree 子树的最大平均值
 
-// 树中的节点数介于 1 到 5000之间。
+// 树中的节点数介于 1 到 5000之间
 // 每个节点的值介于 0 到 100000 之间
 
 @MEDIUM
