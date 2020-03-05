@@ -1,11 +1,9 @@
 // Linked List Cycle 环形链表
 
 @EASY
-@Microsoft
 public class LC141 {
 
   @TwoPointers
-  @LinkedList
   public boolean hasCycle(ListNode head) {
     ListNode fast = head;
     ListNode slow = head;
