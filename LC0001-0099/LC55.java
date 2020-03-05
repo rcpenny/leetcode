@@ -1,6 +1,4 @@
-// Jump Game
-
-// [3,2,1,0,4] 输出: false
+// Jump Game 跳跃游戏
 
 @MEDIUM
 public class LC55 {
