@@ -1,7 +1,6 @@
-// Find the Celebrity
+// Find the Celebrity 搜寻名人
 
 @MEDIUM
-@Microsoft
 public class LC277 extends Relation {
 
   @Array
