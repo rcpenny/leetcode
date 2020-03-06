@@ -1,4 +1,4 @@
-// Subsets
+// Subsets 子集
 
 @MEDIUM
 public class LC78 {
