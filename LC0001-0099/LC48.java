@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC48 {
 
-	@ArrayTag
+	@Array
 	public void rotate(int[][] matrix) {
 		if (matrix == null || matrix.length == 0) {
 			return;
