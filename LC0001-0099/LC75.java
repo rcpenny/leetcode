@@ -1,7 +1,6 @@
-// Sort Colors
+// Sort Colors 颜色分类
 
 @MEDIUM
-@Microsoft
 public class LC75 {
 
   @TwoPointers
