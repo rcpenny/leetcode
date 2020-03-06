@@ -1,7 +1,6 @@
-// Trapping Rain Water
+// Trapping Rain Water 接雨水
 
 @HARD
-@Microsoft
 public class LC42 {
 
   @TwoPointers
