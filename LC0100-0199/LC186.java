@@ -1,7 +1,6 @@
-// Reverse Words in a String II
+// Reverse Words in a String II 翻转字符串里的单词 II
 
 @MEDIUM
-@Microsoft
 public class LC186 {
 
   @String
