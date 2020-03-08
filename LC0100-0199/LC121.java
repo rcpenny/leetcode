@@ -5,16 +5,14 @@ class LC121 {
 
   @DynamicProgramming
   public int maxProfit(int[] prices) {
-    if (prices == null || prices.length <= 1) {
-      return 0;
-    }
+    if (prices == null || prices.length <= 1) return 0;
 
     int profit = 0;
-    int min = prices[0];
+    int lowest = prices[0];
 
     for (int i = 0; i < prices.length; i++) {
-      profit = Math.max(profit, prices[i] - min);
-      min = Math.min(min, prices[i]);
+      profit = Math.max(profit, prices[i] - lowest);
+      lowest = Math.lowest(lowest, prices[i]);
     }
 
     return profit;
