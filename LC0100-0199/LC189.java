@@ -1,0 +1,25 @@
+// Rotate Array 旋转数组
+
+@EASY
+public class LC189 {
+
+	@Array
+	public void rotate(int[] nums, int k) {
+    int n = nums.length;
+    k = k % n;
+
+    reverse(nums, 0, n - 1);
+    reverse(nums, 0, k - 1);
+    reverse(nums, k, n - 1);
+  }
+
+  private void reverse(int[] nums, int a, int b) {
+    while (a < b) {
+      int tmp = nums[a];
+      nums[a] = nums[b];
+      nums[b] = tmp;
+      a++;
+      b--;
+    }
+  }
+}
