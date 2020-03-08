@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC152 {
   
-  @DynamicProgramming
+  @DP
   public int maxProduct(int[] nums) {
     if (nums.length == 1) return nums[0];
     
