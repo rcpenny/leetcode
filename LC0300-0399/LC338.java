@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC338 {
 
-	@DynamicProgramming
+	@DP
   public int[] countBits(int num) {
     int[] bits = new int[num + 1];
     bits[0] = 0;
