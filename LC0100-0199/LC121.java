@@ -12,7 +12,7 @@ class LC121 {
 
     for (int i = 0; i < prices.length; i++) {
       profit = Math.max(profit, prices[i] - lowest);
-      lowest = Math.lowest(lowest, prices[i]);
+      lowest = Math.min(lowest, prices[i]);
     }
 
     return profit;
