@@ -9,7 +9,7 @@ public class LC160 {
 		ListNode aCycleIntersection = detectCycle(headA);
 		ListNode bCycleIntersection = detectCycle(headB);
 
-		// 均无环
+		// 均无环 (本题其实假设均无环)
 		if (aCycleIntersection == null && bCycleIntersection == null) {
 			List noode = NoCycleIntersection(headA, headB);
 			return NoCycleIntersection2(headA, headB);
