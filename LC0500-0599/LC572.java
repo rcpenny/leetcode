@@ -4,7 +4,6 @@
 public class LC572 {
 
 	@Tree
-	@DivideConquer
 	public boolean isSubtree(TreeNode s, TreeNode t) {
     if (sameTree(s, t)) return true;
 
