@@ -5,8 +5,7 @@ public class LC236 {
 
   @BottomUp
   public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-    if (root == null) return null;
-    if (root == p || root == q) return root;
+    if (root == null || root == p || root == q) return root;
 
     TreeNode left = lowestCommonAncestor(root.left, p, q);
     TreeNode right = lowestCommonAncestor(root.right, p, q);
@@ -17,7 +16,4 @@ public class LC236 {
   }
 }
 
-/**
- * 思路：
- * 在bottom up向上收集的每条路径上，出现p或q则返回p或q，反之返回null
- */
+// 思路：在bottom up向上收集的每条路径上，出现p或q则返回p或q，反之返回null
