@@ -3,7 +3,6 @@
 @EASY
 public class LC101 {
   
-  @DivideConquer
   @TopDown
   public boolean isSymmetric(TreeNode root) {
     return mirrorCompare(root, root);
