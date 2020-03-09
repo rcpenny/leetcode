@@ -1,10 +1,8 @@
 // Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先
 
 @MEDIUM
-@HighFreq
 public class LC236 {
 
-  @DivideConquer
   @BottomUp
   public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
     if (root == null) return null;
@@ -18,3 +16,8 @@ public class LC236 {
     return left != null ? left : right;
   }
 }
+
+/**
+ * 思路：
+ * 在bottom up向上收集的每条路径上，出现p或q则返回p或q，反之返回null
+ */
