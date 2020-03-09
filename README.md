@@ -3,11 +3,3 @@ https://www.zhihu.com/question/56904981/answer/151256356
 
 ## Alogrithms - Jeff Erickson
 http://jeffe.cs.illinois.edu/teaching/algorithms/#book
-
-## 思路template
-```java
-/**
- * 思路：
- *
- */
- ```
