@@ -5,16 +5,18 @@ public class LC687 {
   int result;
 
   public int longestUnivaluePath(TreeNode root) {
-      result = 0;
-      arrowLength(root);
-      return result;
+		result = 0;
+		
+		bottomUp(root);
+		
+		return result;
   }
   
-  public int arrowLength(TreeNode node) {
+  public int bottomUp(TreeNode node) {
     if (node == null) return 0;
     
-    int left = arrowLength(node.left);
-    int right = arrowLength(node.right);
+    int left = bottomUp(node.left);
+    int right = bottomUp(node.right);
     
     int arrowLeft = 0;
     int arrowRight = 0;
