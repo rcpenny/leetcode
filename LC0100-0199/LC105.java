@@ -3,8 +3,7 @@
 @MEDIUM
 public class LC105 {
 	
-	@DivideConquer
-	@BinaryTree
+	@TopDown
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
     if (preorder.length == 0) return null;
 
