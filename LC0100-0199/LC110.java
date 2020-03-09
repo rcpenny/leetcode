@@ -2,23 +2,26 @@
 
 @EASY
 public class LC110 {
-  private boolean balanced = true;
 
-  @DivideConquer
+  @BottomUp
   public boolean isBalanced(TreeNode root) {
-    treeHeight(root);
-
-    return balanced;
+    return treeHeight(root) != -1;
   }
 
   private int treeHeight(TreeNode node) {
-    if (!balanced || node == null) return 0;
+    if (node == null) return 0;
 
-    int left = treeHeight(node.left);
-    int right = treeHeight(node.right);
+    int leftHeight = treeHeight(node.left);
+    int rightHeight = treeHeight(node.right);
+		
+		if (leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1)
+			return -1;
 
-    balanced = Math.abs(left - right) > 1 ? false : balanced;
-
-    return Math.max(left, right) + 1;
+    return Math.max(leftHeight, rightHeight) + 1;
   }
 }
+
+/**
+ * 思路：
+ * 此题等于max depth of binary tree，若两个subtree高度差 > 1，返回 -1
+ */
