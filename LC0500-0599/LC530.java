@@ -5,6 +5,7 @@ public class LC530 {
   TreeNode prev = null;
   int diff = Integer.MAX_VALUE;
 
+	@Traversal
   public int getMinimumDifference(TreeNode root) {
     inorder(root);
     return diff;
