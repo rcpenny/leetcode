@@ -3,7 +3,6 @@
 @EASY
 public class LC104 {
 
-  @DivideConquer
   @BottomUp
   public int maxDepth(TreeNode root) {
     if (root == null) return 0;
@@ -14,3 +13,8 @@ public class LC104 {
     return Math.max(left, right) + 1;
   }
 }
+
+/**
+ * 思路：
+ * 分治左右子树的高度，选更高的 加上root node
+ */
