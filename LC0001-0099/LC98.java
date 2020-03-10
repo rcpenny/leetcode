@@ -3,7 +3,6 @@
 @MEDIUM
 class LC98 {
 
-  @DivideConquer
   @TopDown
   public boolean isValidBST(TreeNode root) {
     return check(root, Long.MAX_VALUE, Long.MIN_VALUE);
@@ -14,9 +13,9 @@ class LC98 {
 
     if (node.val <= lowerBound || node.val >= upperBound) return false;
 
-    boolean left = check(node.left, node.val, lowerBound);
-    boolean right = check(node.right, upperBound, node.val);
+    boolean leftValid = check(node.left, node.val, lowerBound);
+    boolean rightValid = check(node.right, upperBound, node.val);
 
-    return left && right;
+    return leftValid && rightValid;
   }
 }
