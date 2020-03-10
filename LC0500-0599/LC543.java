@@ -2,24 +2,22 @@
 
 @EASY
 class LC543 {
-  int max = Integer.MIN_VALUE;
+  int longest = 1;
 
-  @DivideConquer
   @BottomUp
   public int diameterOfBinaryTree(TreeNode root) {
-    if (root == null) return 0;
-    helper(root);
-    return max - 1;
+    bottomUp(root);
+    return longest - 1;
   }
 
-  private int helper(TreeNode node) {
+  private int bottomUp(TreeNode node) {
     if (node == null) return 0;
 
-    int left = helper(node.left);
-    int right = helper(node.right);
+    int leftLen = bottomUp(node.left);
+    int rightLen = bottomUp(node.right);
 
-    max = Math.max(max, left + right + 1);
+    longest = Math.max(longest, leftLen + rightLen + 1);
 
-    return Math.max(left, right) + 1;
+    return Math.max(leftLen, rightLen) + 1;
   }
 }

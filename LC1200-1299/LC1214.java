@@ -4,7 +4,7 @@
 class LC1214 {
 
 	@TwoPointers
-	@IterativeTreeTraversal
+	@IterativeTraversal
   public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
     Stack<TreeNode> left = new Stack<>();
     Stack<TreeNode> right = new Stack<>();
