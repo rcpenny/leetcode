@@ -1,6 +1,4 @@
-// Climbing Stairs
-
-// n is positive integer
+// Climbing Stairs 爬楼梯
 
 @EASY
 public class LC70 {
