@@ -1,4 +1,4 @@
-// Backspace String Compare
+// Backspace String Compare 比较含退格的字符串
 
 @EASY
 public class LC844 {
