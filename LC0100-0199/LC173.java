@@ -2,16 +2,14 @@
 
 @MEDIUM
 class BSTIterator {
-
   Stack<TreeNode> stack;
 
-  @IteratorDesign
+  @Iterator
   public BSTIterator(TreeNode root) {
     stack = new Stack<>();
     pushToStack(root, stack);
   }
   
-  /** @return the next smallest number */
   public int next() {
     TreeNode peek = stack.pop();
     if (peek.right != null) {
@@ -20,7 +18,6 @@ class BSTIterator {
     return peek.val;
   }
   
-  /** @return whether we have a next smallest number */
   public boolean hasNext() {
     return !stack.isEmpty();
   }
