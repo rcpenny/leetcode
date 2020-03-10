@@ -3,7 +3,7 @@
 @EASY
 public class LC155 {}
 
-@Design
+@Stack
 class MinStack {
   Stack<Integer> stack;
   Stack<Integer> minStack;
