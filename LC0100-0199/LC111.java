@@ -3,8 +3,7 @@
 @EASY
 public class LC111 {
   
-  @Tree
-  @DivideConquer
+  @BottomUp
   public int minDepth(TreeNode root) {
     if (root == null) return 0;
 
