@@ -6,7 +6,6 @@ public class LC1302 {
   int sum = 0;
   int deepest = 1;
   
-  @DivideConquer
   @TopDown
   public int deepestLeavesSum(TreeNode root) {
     topDown(root, 1);
@@ -19,8 +18,8 @@ public class LC1302 {
     if (curDepth == deepest) sum += node.val;
     
     if (curDepth > deepest) {
-      sum = 0;
       deepest = curDepth;
+      sum = 0;
       sum += node.val;
     }
 
