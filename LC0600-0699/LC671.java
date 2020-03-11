@@ -3,12 +3,9 @@
 @EASY
 public class LC671 {
 
-  @DivideConquer
   @BottomUp
   public int findSecondMinimumValue(TreeNode root) {
-    if (root.left == null && root.right == null) {
-      return -1;
-    }
+    if (root.left == null && root.right == null) return -1;
 
     int left = root.left.val != root.val ? root.left.val : findSecondMinimumValue(root.left);
     int right = root.right.val != root.val ? root.right.val : findSecondMinimumValue(root.right);
