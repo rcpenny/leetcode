@@ -4,7 +4,6 @@
 public class LC124 {
   int max = Integer.MIN_VALUE;
 
-  @DivideConquer
   @BottomUp
   public int maxPathSum(TreeNode root) {
     maxSumWithNode(root);
