@@ -3,7 +3,6 @@
 @MEDIUM
 public class LC366 {
 
-  @DivideConquer
   @BottomUp
   public List<List<Integer>> findLeaves(TreeNode root) {
     List<List<Integer>> leaves = new ArrayList<>();
