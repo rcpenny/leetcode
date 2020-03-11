@@ -5,29 +5,25 @@ public class LC703 {}
 
 @Heap
 class KthLargest {
+  int k;
   PriorityQueue<Integer> minheap;
-
+  
   public KthLargest(int k, int[] nums) {
+    this.k = k;
     minheap = new PriorityQueue<>();
-
-    for (int n : nums) {
-      if (minheap.size() < k) {
-        minheap.offer(n);
-        continue;
-      }
-        
-      if (n > minheap.peek()) {
-        minheap.poll();
-        minheap.offer(n);
-      }
+      
+    for(int n : nums) {
+      minheap.add(n);
+      if(minheap.size() > k) minheap.poll();
     }
   }
   
   public int add(int val) {
-    if (val > minheap.peek()) {
+    minheap.add(val);
+    
+    if(minheap.size() == k + 1)
       minheap.poll();
-      minheap.offer(val);
-    }
+    
     return minheap.peek();
   }
 }
