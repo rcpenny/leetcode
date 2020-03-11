@@ -3,7 +3,6 @@
 @MEDIUM
 public class LC333 {
 
-	@DivideConquer
 	@BottomUp
   public int largestBSTSubtree(TreeNode root) {
 		return getNodeState(root).size;
@@ -20,7 +19,7 @@ public class LC333 {
 		if ((left.max >= node.val && left != null) || (right.min <= node.val && right != null)) 
 			return new ResultType(0, 0, false, Math.max(left.size, right.size));
 
-		// 还是记得判断left right child是否存在
+		// 记得判断left right child是否存在
 		int currentMax = node.right == null ? node.val : right.max;
 		int currentMin = node.left == null ? node.val : left.min;
 
