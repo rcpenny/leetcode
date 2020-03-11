@@ -3,6 +3,7 @@
 @EASY
 public class LC232 {}
 
+@Stack
 class MyQueue {
   Stack<Integer> stack1;
   Stack<Integer> stack2;
