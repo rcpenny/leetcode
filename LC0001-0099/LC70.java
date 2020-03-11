@@ -3,7 +3,7 @@
 @EASY
 public class LC70 {
 
-	@DynamicProgramming
+	@DP
 	public int climbStairs(int n) {
 		if (n == 1) return 1;
 
