@@ -1,4 +1,4 @@
-// Peak Index in a Mountain Array
+// Peak Index in a Mountain Array 山脉数组的峰顶索引
 
 @EASY
 public LC852 {
