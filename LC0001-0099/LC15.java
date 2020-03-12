@@ -1,12 +1,12 @@
-// 3Sum
+// 3Sum 三数之和
 
 @MEDIUM
-@Google
 class LC15 {
 
   @TwoPointers
   public List<List<Integer>> threeSum(int[] nums) {
     List<List<Integer>> result = new  ArrayList<>();
+
     if (nums == null || nums.length < 3) return result;
 
     Arrays.sort(nums);
