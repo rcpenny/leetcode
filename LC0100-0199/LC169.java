@@ -1,4 +1,4 @@
-// Majority Element
+// Majority Element 多数元素
 
 @EASY
 public class LC169 {
