@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC647 {
   
-	@DynamicProgramming
+	@DP
 	public int countPalindromicSubstrings(String str) {
     if (str == null) return 0;
 
@@ -23,7 +23,6 @@ public class LC647 {
     for (i = 0; i < n - 1; i++)
       f[i][i + 1] = c[i] == c[i + 1] ? true : false;
 
-    // 序列型 根据length来循环
     for (len = 3; len <= n; len++) {
       for (i = 0; i <= n - len; i++) {
         j = i + len - 1;
