@@ -1,6 +1,7 @@
-// Ugly Number 丑数 II 丑数 II
+// Ugly Number II 丑数 II
 
-final class LC264 {
+@MEDIUM
+public class LC264 {
 
 	@Heap
   public int nthUglyNumber(int n) {
