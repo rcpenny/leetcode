@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC139 {
 
-	@DynamicProgramming
+	@DP
 	public boolean wordBreak(String s, List<String> wordDict) {
 		Set<String> dict =new HashSet<>(wordDict);
 
