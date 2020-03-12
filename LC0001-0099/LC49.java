@@ -1,7 +1,6 @@
-// Group Anagrams
+// Group Anagrams 字母异位词分组
 
 @MEDIUM
-@Microsoft
 public class LC49 {
   
   @HashTable
