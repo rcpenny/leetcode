@@ -3,7 +3,7 @@
 @MEDIUM
 class Solution {
   
-	@DynamicProgramming
+	@DP
 	public int numTilings(int N) {
     if (N < 3) return N;
     
