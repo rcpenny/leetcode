@@ -3,7 +3,7 @@
 @EASY
 public class LC198 {
   
-  @DynamicProgramming
+  @DP
   public int rob(int[] nums) {
     if (nums == null || nums.length == 0) return 0;
 
