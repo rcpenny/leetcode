@@ -1,4 +1,4 @@
-// Compare Version Numbers
+// Compare Version Numbers 比较版本号
 
 @MEDIUM
 public class LC165 {
@@ -15,9 +15,7 @@ public class LC165 {
 			int num1 = i < m ? Integer.valueOf(v1[i]) : 0;
 			int num2 = i < n ? Integer.valueOf(v2[i]) : 0;
 
-			if (num1 != num2) {
-				return num1 > num2 ? 1 : -1;
-			}
+			if (num1 != num2) return num1 > num2 ? 1 : -1;
 		}
 
 		return 0;
