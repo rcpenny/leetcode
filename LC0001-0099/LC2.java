@@ -5,34 +5,31 @@ public class LC2 {
 	
 	@LinkedList
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-		ListNode dummy = new ListNode(0);
-		ListNode tail = dummy;
+    ListNode dummy = new ListNode(0);
+    ListNode tail = dummy;
 
-		int carry = 0;
+    int carry = 0;
 
-		while (l1 != null || l2 != null) {
-			int sum = 0;
+    while (l1 != null || l2 != null || carry != 0) {
+      int tmpVal = carry;
 
-			if (l1 != null) {
-				sum += l1.val;
-				l1 = l1.next;
-			}
+      if (l1 != null) {
+        tmpVal += l1.val;
+        l1 = l1.next;
+      }
 
-			if (l2 != null) {
-				sum += l2.val;
-				l2 = l2.next;
-			}
+      if (l2 != null) {
+        tmpVal += l2.val;
+        l2 = l2.next;
+      }
 
-			ListNode node = new ListNode((sum + carry) % 10);
-			tail.next = node;
-			tail = node;
+      ListNode nextNode = new ListNode(tmpVal % 10);
+      carry = tmpVal / 10;
 
-			carry = (sum + carry) / 10;
-		}
+      tail.next = nextNode;
+      tail = nextNode;
+    }
 
-
-		tail.next = carry != 0 ? new ListNode(1) : null;
-		
-		return dummy.next;
+    return dummy.next;
 	}
 }
