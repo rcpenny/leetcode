@@ -1,4 +1,4 @@
-// Regular Expression Matching
+// Regular Expression Matching 正则表达式匹配
 
 // Input:
 // s = "mississippi"
@@ -6,10 +6,9 @@
 // Output: false
 
 @HARD
-@Microsoft
 public class LC10 {
 
-  @DynamicProgramming
+  @DP
   public boolean isMatch(String A, String B) {
 		char[] s = A.toCharArray();
 		char[] p = B.toCharArray();
