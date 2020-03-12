@@ -1,4 +1,4 @@
-// Pow(x, n)
+// Pow(x, n) Pow(x, n)
 
 @MEDIUM
 public class LC50 {
