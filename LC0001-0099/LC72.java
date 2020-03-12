@@ -3,7 +3,7 @@
 @HARD
 public class LC72 {
 
-	@DynamicProgramming
+	@DP
 	public int minDistance(String word1, String word2) {
 		char[] A = word1.toCharArray();
 		char[] B = word2.toCharArray();
