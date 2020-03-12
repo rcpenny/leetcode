@@ -1,4 +1,4 @@
-// Remove Nth Node From End of List
+// Remove Nth Node From End of List 删除链表的倒数第N个节点
 
 @MEDIUM
 public class LC19 {
@@ -14,7 +14,6 @@ public class LC19 {
 
 		for (int i = 0; i <= n; i++) {
 			fast = fast.next;
-
 			if (fast == null) return head.next;
 		}
 
