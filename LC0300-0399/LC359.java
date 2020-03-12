@@ -1,7 +1,6 @@
-// Logger Rate Limiter
+// Logger Rate Limiter 日志速率限制器
 
 @EASY
-@Google
 public class LC359 {}
 
 class Logger {
