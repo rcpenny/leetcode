@@ -19,7 +19,6 @@ public class LC94 {
 		traverse(node.right, result);
 	}
 
-	// 中序遍历： 左 中 右 （出栈顺序）
   @Iterative
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
