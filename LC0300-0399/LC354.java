@@ -3,7 +3,7 @@
 @HARD
 public class LC254 {
 
-	@DynamicProgramming
+	@DP
 	public int maxEnvelopes(int[][] envelopes) {
 		int n = envelopes.length;
 		if (n == 0) return 0;
