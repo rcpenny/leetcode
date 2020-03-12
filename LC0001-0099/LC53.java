@@ -3,7 +3,7 @@
 @EASY
 public class LC53 {
 
-  @DynamicProgramming
+  @DP
   public int maxSubArray(int[] nums) {
     int prefix = 0;
     int curMin = 0;
