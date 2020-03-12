@@ -1,7 +1,6 @@
-// Roman to Integer
+// Roman to Integer 罗马数字转整数
 
 @EASY
-@Microsoft
 class LC13 {
 
   @Math
