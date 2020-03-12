@@ -1,7 +1,6 @@
-// Excel Sheet Column Number
+// Excel Sheet Column Number Excel表列序号
 
 @EASY
-@Microsoft
 class LC171 {
 
   @Math
@@ -9,9 +8,8 @@ class LC171 {
     char[] ch = s.toCharArray();
     int num = 0;
 
-    for (char c : ch) {
+    for (char c : ch)
       num = num * 26 + (c - 'A') + 1;
-    }
 
     return num;
   }
