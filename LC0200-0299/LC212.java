@@ -1,10 +1,7 @@
-// Word Search II
+// Word Search II 单词搜索 II 
 
 @HARD
-@Microsoft
-@TODO
 public class LC212 {
-
 
   @Trie
   @Backtracking
