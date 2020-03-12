@@ -1,7 +1,6 @@
-// Add Two Numbers II
+// Add Two Numbers II 两数相加 II
 
 @MEDIUM
-@Microsoft
 class LC445 {
 
   @LinkedList
