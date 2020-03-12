@@ -1,4 +1,4 @@
-// Valid Palindrome II
+// Valid Palindrome II 验证回文字符串 II
 
 @EASY
 public class LC680 {
