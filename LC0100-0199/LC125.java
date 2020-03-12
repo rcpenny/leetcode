@@ -1,4 +1,4 @@
-// Valid Palindrome
+// Valid Palindrome 验证回文串
 
 @EASY
 class LC125 {
