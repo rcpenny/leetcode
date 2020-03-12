@@ -17,8 +17,8 @@ public class LC55 {
 		return false;
 	}
 
-	@DynamicProgramming
-	public boolean canJump1(int[] nums) {
+	@DP
+	public boolean canJump(int[] nums) {
 		int n = nums.length;
 
 		boolean[] f = new boolean[n];
