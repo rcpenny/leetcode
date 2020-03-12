@@ -3,7 +3,6 @@
 @MEDIUM
 public class LC22 {
   
-  @DFS
   @Backtracking
   public List<String> generateParenthesis(int n) {
     List<String> result = new ArrayList<>();
