@@ -1,13 +1,12 @@
-// Confusing Number II
+// Confusing Number II 易混淆数 II
 
 @HARD
-@GOOGLE
 public class LC1088 {
 
-	private static final int[] digits = {0, 1, 6, 8, 9};
+	private final int[] digits = {0, 1, 6, 8, 9};
 	private int count = 0;
 
-	@MathProblem
+	@Math
 	@Backtracking
 	public int confusingNumberII(int N) {
 		backtrack(N, 0L);
