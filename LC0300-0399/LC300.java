@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC300 {
 
-  @DynamicProgramming
+  @DP
   public int lengthOfLIS(int[] nums) {
     if (nums == null || nums.length == 0) {
       return 0;
