@@ -1,4 +1,4 @@
-// Zigzag Iterator
+// Zigzag Iterator 锯齿迭代器
 
 @MEDIUM
 class LC281 {}
