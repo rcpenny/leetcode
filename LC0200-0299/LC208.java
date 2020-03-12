@@ -1,7 +1,6 @@
-// Implement Trie (Prefix Tree)
+// Implement Trie (Prefix Tree) 实现 Trie (前缀树)
 
 @MEDIUM
-@Microsoft
 public class LC208 {}
 
 @Trie
