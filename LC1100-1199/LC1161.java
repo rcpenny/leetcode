@@ -1,4 +1,4 @@
-// Maximum Level Sum of a Binary Tree
+// Maximum Level Sum of a Binary Tree 最大层内元素和
 
 @MEDIUM
 public class LC1161 {
