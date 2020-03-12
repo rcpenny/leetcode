@@ -1,10 +1,8 @@
-// Clone Graph
+// Clone Graph 克隆图
 
 @MEDIUM
-@Microsoft
 public class LC133 {
 
-	@Graph
 	@BFS
   public Node cloneGraph(Node node) {
 		Map<Node, Node> map = new HashMap<>();
@@ -33,17 +31,5 @@ public class LC133 {
 		}
 
 		return map.get(node);
-	}
-}
-
-class Node {
-	public int val;
-	public List<Node> neighbors;
-
-	public Node() {}
-
-	public Node(int _val,List<Node> _neighbors) {
-			val = _val;
-			neighbors = _neighbors;
 	}
 }
