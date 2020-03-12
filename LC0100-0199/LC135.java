@@ -1,4 +1,4 @@
-// Candy
+// Candy 分发糖果
 
 @HARD
 public class LC135 {
