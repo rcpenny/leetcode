@@ -7,6 +7,7 @@ public class LC1072 {
 	public int twoCitySchedCost(int[][] costs) {
     int totalCost = 0;
 
+		// 假设全飞去城市A
     for (int i = 0; i < costs.length; i++)
       totalCost += costs[i][0];
     
@@ -14,9 +15,8 @@ public class LC1072 {
       return (a[1] - a[0]) - (b[1] - b[0]);
     });
 
-    for (int i = 0; i < costs.length / 2; i++) {
+    for (int i = 0; i < costs.length / 2; i++)
       totalCost += (costs[i][1] - costs[i][0]);
-    }
 
     return totalCost;
   }
