@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC416 {
 
-	@DynamicProgramming
+	@DP
 	public boolean canPartition(int[] nums) {
 		if (nums == null || nums.length < 2) return false;
 
