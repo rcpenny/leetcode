@@ -1,4 +1,4 @@
-// Shortest Distance from All Buildings
+// Shortest Distance from All Buildings 离建筑物最近的距离
 
 @HARD
 public class LC317 {
