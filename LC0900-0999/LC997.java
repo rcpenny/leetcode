@@ -1,4 +1,4 @@
-// Find the Town Judge
+// Find the Town Judge 找到小镇的法官
 
 @EASY
 public class LC997 {
