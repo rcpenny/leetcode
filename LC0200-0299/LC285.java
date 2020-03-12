@@ -1,4 +1,4 @@
-// Inorder Successor in BST
+// Inorder Successor in BST 二叉搜索树中的顺序后继
 
 @MEDIUM
 public class LC285 {
