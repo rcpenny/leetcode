@@ -1,12 +1,9 @@
-// Confusing Number
+// Confusing Number 易混淆数
 
 @EASY
-@GOOGLE
 public class LC1056 {
 
-	// 86 -> 98
-
-	@MathProblem
+	@Math
 	public boolean confusingNumber(int N) {
 		
 		int n = N;
