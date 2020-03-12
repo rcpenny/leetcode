@@ -1,7 +1,6 @@
-// K Closest Points to Origin
+// K Closest Points to Origin 最接近原点的 K 个点
 
 @MEDIUM
-@Google
 public class LC973 {
 
 	@Heap
