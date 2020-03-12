@@ -1,7 +1,6 @@
-// Fruit into Baskets
+// Fruit into Baskets 水果成篮
 
 @MEDIUM
-@Google
 public class LC904 {
 
   @TwoPointers
