@@ -1,4 +1,4 @@
-// Valid Anagram
+// Valid Anagram 有效的字母异位词
 
 @EASY
 class LC242 {
