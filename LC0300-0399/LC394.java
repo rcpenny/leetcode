@@ -1,4 +1,4 @@
-// Decode String
+// Decode String 字符串解码
 
 @MEDIUM
 public class LC394 {
