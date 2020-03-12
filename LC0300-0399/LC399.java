@@ -1,7 +1,7 @@
-// Evaluate Division
+// Evaluate Division 除法求值
 
 @MEDIUM
-@Google
+@TODO
 public class LC399 {
 
   @UnionFind
