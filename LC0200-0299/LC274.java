@@ -1,4 +1,4 @@
-// H-Index
+// H-Index H指数
 
 @MEDIUM
 public class LC274 {
