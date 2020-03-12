@@ -2,24 +2,25 @@
 
 @MEDIUM
 public class LC494 {
-	private int ways = 0;
-	
-	// same as coin change 2
+
 	@DFS
-	@DynamicProgramming
 	public int findTargetSumWays(int[] nums, int target) {
-		if (nums == null || nums.length == 0) return ways;
-	
-		find(nums, 0, target, 0);
-	
-		return ways;
+		if (nums == null || nums.length == 0) return 0;
+		return find(nums, 0, target);
 	}
 	
-	private void find(int[] nums, int index, int target, int sum) {
-		if (sum ==  target && index == nums.length) ways++;
-		if (index == nums.length) return;
+	private int find(int[] nums, int index, int target) {
+		if (index == nums.length) return target == 0 ? 1 : 0;
 
-		find(nums, index + 1, target, sum + nums[index]);
-		find(nums, index + 1, target, sum - nums[index]);
+		int leftWays = find(nums, index + 1, target + nums[index]);
+		int rightWays = find(nums, index + 1, target - nums[index]);
+
+		return leftWays + rightWays;
+	}
+
+	@DP
+	@TODO
+	public int findTargetSumWays(int[] nums, int target) {
+
 	}
 }
