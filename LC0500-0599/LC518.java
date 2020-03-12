@@ -3,7 +3,7 @@
 @MEDIUM
 public LC518 {
   
-  @DynamicProgramming
+  @DP
   public int change(int amount, int[] coins) {
     int[] f = new int[amount + 1];
     
