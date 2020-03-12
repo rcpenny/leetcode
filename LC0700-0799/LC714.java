@@ -3,7 +3,7 @@
 @MEDIUM
 public class LC714 {
 
-  @DynamicProgramming
+  @DP
   public int maxProfit(int[] prices, int fee) {
     int cash = 0;
     int hold = -prices[0];
