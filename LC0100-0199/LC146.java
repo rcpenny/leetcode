@@ -1,8 +1,6 @@
-// LRU Cache
+// LRU Cache LRU缓存机制 
 
 @MEDIUM
-@Microsoft
-@Google
 public class LC146 {}
 
 class Node {
@@ -16,7 +14,7 @@ class Node {
   }
 }
 
-@DesignProblem
+@Design
 class LRUCache {
   int size;
   int capacity;
