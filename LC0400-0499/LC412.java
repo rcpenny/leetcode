@@ -1,4 +1,4 @@
-// Fizz Buzz
+// Fizz Buzz Fizz Buzz
 
 @EASY
 public class LC412 {
