@@ -9,22 +9,22 @@ public class LC240 {
       return false;
     }
 
-    int m = matrix.length;
-    int n = matrix[0].length;
+    int row = matrix.length;
+    int col = matrix[0].length;
 
-    if (target < matrix[0][0] || target > matrix[m - 1][n - 1]) {
+    if (target < matrix[0][0] || target > matrix[row - 1][col - 1]) {
       return false;
     }
 
-    int row = m - 1;
-    int col = 0;
+    int m = row - 1;
+    int n = 0;
 
-    while (row >= 0 && col < n) {
-      int val = matrix[row][col];
+    while (m >= 0 && n < col) {
+      int val = matrix[m][n];
 
       if (val == target) return true;
-      else if (val < target) col++;
-      else row--;
+      else if (val < target) n++;
+      else m--;
     }
 
     return false;
