@@ -4,34 +4,28 @@
 public class LC206 {
   
   @LinkedList
-  @Iterative
   public ListNode reverseList(ListNode head) {
-    ListNode pre = null;
-    ListNode cur = head;
-    ListNode nex = null;
+    ListNode prev = null;
+    ListNode curr = head;
+    ListNode next = null;
 
-    while (cur != null) {
-      nex = cur.next;
-      cur.next = pre;
+    while (curr != null) {
+      next = curr.next;
+      curr.next = prev;
 
-      pre = cur;
-      cur = nex;
+      prev = curr;
+      curr = next;
     }
 
-    return pre; 
+    return prev; 
   }
 
-  @Recursive
   public ListNode reverseList(ListNode head) {
-    if (head == null || head.next == null) {
-      return head;
-    }
-
+    if (head == null || head.next == null) return head;
+ 
     ListNode node = reverseList(head.next);
 
-    // 这个解决上一个recursive call的 head.next = null
     head.next.next = head;
-
     head.next = null;
 
     return node;
