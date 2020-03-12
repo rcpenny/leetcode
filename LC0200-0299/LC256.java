@@ -3,7 +3,7 @@
 @EASY
 public class LC256 {
 	
-	@DynamicProgramming
+	@DP
 	public int minCost(int[][] costs) {
     if (costs == null || costs.length == 0 || costs[0].length == 0) {
       return 0;
