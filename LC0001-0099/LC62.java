@@ -3,25 +3,26 @@
 @MEDIUM
 public class LC62 {
   
-  @DynamicProgramming
+	// 滚动数组
+  @DP
   public int uniquePaths(int m, int n) {
-    int[] prev = new int[n];
-    int[] curr = new int[n];
+    int[] prevRow = new int[n];
+    int[] currRow = new int[n];
 
     for (int i = 0; i < n; i++) {
-      prev[i] = 1;
+      prevRow[i] = 1;
     }
 
     for (int i = 1; i < m; i++) {
-      curr[0] = 1;
+      currRow[0] = 1;
 
       for (int j = 1; j < n; j++) {
-        curr[j] = prev[j] + curr[j - 1];
+        currRow[j] = prevRow[j] + currRow[j - 1];
       }
 
-      prev = curr;
+      prevRow = currRow;
     }
 
-    return prev[n - 1];
+    return prevRow[n - 1];
   }
 }
