@@ -1,4 +1,4 @@
-// Unique Email Addresses
+// Unique Email Addresses 独特的电子邮件地址
 
 @EASY
 public class LC929 {
