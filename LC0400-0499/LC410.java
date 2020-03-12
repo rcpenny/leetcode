@@ -3,7 +3,7 @@
 @HARD
 public class LC410 {
 
-  @DynamicProgramming
+  @DP
   public int splitArray(int[] nums, int m) {
     int n = nums.length;
 
