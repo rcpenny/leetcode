@@ -3,7 +3,7 @@
 @HARD
 public class LC256 {
 	
-	@DynamicProgramming
+	@DP
 	public int minCostII(int[][] costs) {
     if (costs == null || costs.length == 0) {
       return 0;
