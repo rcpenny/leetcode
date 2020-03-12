@@ -1,4 +1,4 @@
-// Word Ladder
+// Word Ladder 单词接龙
 
 @MEDIUM
 
