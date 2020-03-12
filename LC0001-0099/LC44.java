@@ -1,7 +1,6 @@
-// Wildcard Matching
+// Wildcard Matching 通配符匹配
 
 @HARD
-@Microsoft
 public class LC44 {
 
   @DFS
