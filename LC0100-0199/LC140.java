@@ -1,9 +1,9 @@
-// Word Break II
+// Word Break II 单词拆分 II
 
 @HARD
 public class LC140 {
 
-	@DynamicProgramming("MLE for 'aaaaaaaa...' ")
+	@DP
   public List<String> wordBreak(String s, List<String> wordDict) {
 		Set<String> dict = new HashSet<>(wordDict);
 		
