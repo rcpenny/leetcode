@@ -1,10 +1,9 @@
-// Course Schedule II
+// Course Schedule II	课程表 II
 
 @MEDIUM
 public class LC210 {
 
   @TopologicalSorting
-  @Graph
   public int[] findOrder(int numCourses, int[][] prerequisites) {
     List<Integer> order = new ArrayList<>();
 
