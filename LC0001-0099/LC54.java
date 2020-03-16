@@ -41,9 +41,13 @@ public class LC54 {
     }
 
     if (m == 1) {
-      for (i = 0; i < n; i++) result.add(matrix[x][y++]);
-    } else if (n == 1) {
-      for (i = 0; i < m; i++) result.add(matrix[x++][y]);
+      for (i = 0; i < n; i++)
+				result.add(matrix[x][y++]);
+    } 
+		
+		else if (n == 1) {
+      for (i = 0; i < m; i++)
+			result.add(matrix[x++][y]);
     }
 
     return result;
