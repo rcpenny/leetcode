@@ -9,7 +9,6 @@ public class LC50 {
     if (n == 0) return 1.0;
 
     if (n < 0) x = 1 / x;
-    n = 0 - n;
 
     double result = 1.0;
     double product = x;
