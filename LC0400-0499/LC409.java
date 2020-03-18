@@ -2,6 +2,8 @@
 
 @EASY
 public class LC409 {
+
+	@HashTable
 	public int longestPalindrome(String s) {
 		if (s == null || s.length() == 0) return 0;
 		
