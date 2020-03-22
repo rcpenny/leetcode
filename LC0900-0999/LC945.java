@@ -2,11 +2,9 @@
 
 @MEDIUM
 public class LC945 {
-	
+
 	@Array
 	public int minIncrementForUnique(int[] A) {
-    if (A.length == 0) return 0;
-
     Arrays.sort(A);
     int moves = 0;
 
