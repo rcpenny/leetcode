@@ -15,10 +15,14 @@ public class LC414 {
         smaller = middle;
         middle = larger;
         larger = n;
-      } else if (n < larger && n > middle) {
+      } 
+			
+			else if (n < larger && n > middle) {
         smaller = middle;
         middle = n;
-      } else if (n < middle && n > smaller) {
+      } 
+			
+			else if (n < middle && n > smaller) {
         smaller = n;
       }
     }
