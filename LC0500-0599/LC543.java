@@ -1,6 +1,7 @@
 // Diameter of Binary Tree 二叉树的直径
 
 @EASY
+@HighFreq
 class LC543 {
   int longest = 1;
 
