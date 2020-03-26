@@ -1,6 +1,7 @@
 // Subtree of Another Tree 另一个树的子树
 
 @EASY
+@HighFreq
 public class LC572 {
 
 	@Tree
