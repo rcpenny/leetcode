@@ -1,6 +1,7 @@
 // Minimum Window Substring 最小覆盖子串
 
 @HARD
+@HighFreq
 public class LC76 {
   int[] letters = new int[256];
 
