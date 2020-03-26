@@ -1,6 +1,7 @@
 // Maximum Subarray 最大子序和
 
 @EASY
+@HighFreq
 public class LC53 {
 
   @DP
