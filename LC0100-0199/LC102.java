@@ -1,6 +1,7 @@
 // Binary Tree Level Order Traversal 二叉树的层次遍历
 
 @MEDIUM
+@HighFreq
 public class LC102 {
 
   @BFS
