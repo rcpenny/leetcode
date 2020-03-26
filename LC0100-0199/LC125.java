@@ -1,6 +1,7 @@
 // Valid Palindrome 验证回文串
 
 @EASY
+@HighFreq
 class LC125 {
 
   @TwoPointers
