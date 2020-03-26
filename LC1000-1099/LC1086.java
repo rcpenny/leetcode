@@ -2,6 +2,8 @@
 
 @EASY
 public class LC1086 {
+
+	@Array
   public int[][] highFive(int[][] items) {
     Map<Integer, Student> map = new TreeMap<>();
 
