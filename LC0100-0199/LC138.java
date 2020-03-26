@@ -1,9 +1,9 @@
 // Copy List with Random Pointer 复制带随机指针的链表
 
 @MEDIUM
+@HighFreq
 public class LC138 {
 
-  @LinkedList
   @HashTable
   public Node copyRandomList(Node head) {
     Map<Node, Node> map = new HashMap<>();
