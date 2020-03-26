@@ -3,8 +3,6 @@
 @MEDIUM
 public class LC159 {
   
-  @HashTable
-  @SlidingWindow
   @TwoPointers
   public int lengthOfLongestSubstringTwoDistinct(String s) {
     if (s == null || s.length() == 0) return 0;
