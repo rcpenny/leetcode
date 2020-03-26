@@ -10,6 +10,7 @@ class Point {
 }
 
 @MEDIUM
+@HighFreq
 public class LC200 {
 
 	private char SEA = '0';
