@@ -1,6 +1,7 @@
 // Best Time to Buy and Sell Stock 买卖股票的最佳时机
 
 @EASY
+@HighFreq
 class LC121 {
 
   @DP
