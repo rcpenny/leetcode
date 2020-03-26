@@ -1,6 +1,7 @@
-// LRU Cache LRU缓存机制 
+// LRU Cache LRU缓存机制
 
 @MEDIUM
+@HighFreq
 public class LC146 {}
 
 class Node {
