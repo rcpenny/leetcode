@@ -1,6 +1,7 @@
 // Binary Tree Right Side View 二叉树的右视图
 
 @MEDIUM
+@HighFreq
 public class LC199 {
 
 	@BFS
