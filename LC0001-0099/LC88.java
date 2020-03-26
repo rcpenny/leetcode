@@ -1,6 +1,7 @@
 // Merge Sorted Array 合并两个有序数组
 
 @EASY
+@HighFreq
 public class LC88 {
 
   @TwoPointers
