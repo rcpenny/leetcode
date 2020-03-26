@@ -1,6 +1,7 @@
 // Validate Binary Search Tree 验证二叉搜索树
 
 @MEDIUM
+@HighFreq
 class LC98 {
 
   @TopDown
