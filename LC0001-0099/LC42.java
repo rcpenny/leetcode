@@ -1,6 +1,7 @@
 // Trapping Rain Water 接雨水
 
 @HARD
+@HighFreq
 public class LC42 {
 
   @TwoPointers
