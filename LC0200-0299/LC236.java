@@ -1,6 +1,7 @@
 // Lowest Common Ancestor of a Binary Tree 二叉树的最近公共祖先
 
 @MEDIUM
+@HighFreq
 public class LC236 {
 
   @BottomUp
