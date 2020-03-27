@@ -15,8 +15,6 @@ public class LC283 {
       nums[index++] = tmp;
     }
     
-    while (index != n) {
-      nums[index++] = 0;
-    }
+    while (index != n) nums[index++] = 0;
   }
 }
