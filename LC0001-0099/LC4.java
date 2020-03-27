@@ -1,6 +1,7 @@
 // Median of Two Sorted Arrays 寻找两个有序数组的中位数
 
 @HARD
+@HighFreq
 public class LC4 {
   
   @BinarySearch
