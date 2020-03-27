@@ -1,6 +1,7 @@
 // Spiral Matrix 螺旋矩阵
 
 @MEDIUM
+@HighFreq
 public class LC54 {
 
   @Array
