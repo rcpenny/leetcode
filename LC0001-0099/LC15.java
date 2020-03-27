@@ -1,6 +1,7 @@
 // 3Sum 三数之和
 
 @MEDIUM
+@HighFreq
 class LC15 {
 
   @TwoPointers
