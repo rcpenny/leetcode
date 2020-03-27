@@ -4,22 +4,19 @@
 public class LC283 {
 
 	@Array
-	public void moveZeroes(int[] nums) {
-		int countZeros = 0;
-		
-		for (int i : nums) {
-			if (i == 0) countZeros++;
-		}
-		
-		int curIndex = 0;
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != 0) {
-				nums[curIndex++] = nums[i];
-			}
-		}
-		
-		for (int j = 0; j < countZeros; j++) {
-			nums[nums.length - 1 - j] = 0;
-		}
-	}
+  public void moveZeroes(int[] nums) {
+    int index = 0;
+    int n = nums.length;
+    
+    for (int i = 0; i < n; i++) {
+      if (nums[i] == 0) continue;
+      int tmp = nums[i];
+      nums[i] = nums[index];
+      nums[index++] = tmp;
+    }
+    
+    while (index != n) {
+      nums[index++] = 0;
+    }
+  }
 }
