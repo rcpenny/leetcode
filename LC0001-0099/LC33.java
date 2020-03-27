@@ -1,6 +1,7 @@
 // Search in Rotated Sorted Array 搜索旋转排序数组
 
 @MEDIUM
+@HighFreq
 public class LC33 {
   
   @BinarySearch
