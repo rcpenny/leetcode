@@ -1,6 +1,7 @@
 // Merge Intervals 合并区间
 
 @MEDIUM
+@HighFreq
 public class LC56 {
   
   @Sort
