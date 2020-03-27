@@ -1,6 +1,7 @@
 // Product of Array Except Self 除自身以外数组的乘积
 
 @MEDIUM
+@HighFreq
 public class LC238 {
 
   @Array
