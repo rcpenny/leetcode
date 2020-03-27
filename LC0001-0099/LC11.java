@@ -1,6 +1,7 @@
 // Container With Most Water 盛最多水的容器
 
 @MEDIUM
+@HighFreq
 public class LC11 {
 
   @TwoPointers
