@@ -4,7 +4,7 @@
 public class LC501 {
 	int maxFreq = 0;
 
-	@Tree
+	@Traversal
   public int[] findMode(TreeNode root) {
     Map<Integer, Integer> freq = new HashMap<>();
     inorder(root, freq);
