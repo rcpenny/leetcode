@@ -19,13 +19,9 @@ public class LC167 {
         break;
       } 
 			
-			else if (sum < target) {
-        left++;
-      } 
+			else if (sum < target) left++;
 			
-			else {
-        right--;
-      }
+			else right--;
     }
 
     return result;
