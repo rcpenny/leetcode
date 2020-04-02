@@ -1,6 +1,7 @@
 // Subarray Sum Equals K 和为K的子数组
 
 @MEDIUM
+@HighFreq
 public class LC560 {
 
 	@PrefixSum
