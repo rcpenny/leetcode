@@ -1,5 +1,6 @@
 // 字符串中的第一个唯一字符 First Unique Character in a String
 
+@EASY
 public class LC387 {
 
 	@HashTable
