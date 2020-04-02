@@ -1,6 +1,7 @@
 // Minimum Path Sum 最小路径和
 
 @MEDIUM
+@HighFreq
 public class LC64 {
 
 	@DP
