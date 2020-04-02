@@ -1,6 +1,7 @@
 // Longest Palindromic Substring 最长回文子串
 
 @MEDIUM
+@HighFreq
 public class LC5 {
 
   @TwoPointers

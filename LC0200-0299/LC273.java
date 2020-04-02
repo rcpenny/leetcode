@@ -1,6 +1,7 @@
 // Integer to English Words 整数转换英文表示
 
 @HARD
+@HighFreq
 public class LC273 {
 
   String[] IN_TWENTY = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten",
