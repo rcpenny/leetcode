@@ -32,7 +32,6 @@ public class LC273 {
     return result.trim();
   }
 
-
   private String helper(int n) {
     String s;
 
