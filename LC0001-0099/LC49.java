@@ -1,6 +1,7 @@
 // Group Anagrams 字母异位词分组
 
 @MEDIUM
+@HighFreq
 public class LC49 {
   
   @HashTable
