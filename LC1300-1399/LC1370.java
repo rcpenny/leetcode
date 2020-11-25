@@ -7,12 +7,11 @@
 @String
 public class LC1370 {
   public String sortString(String s) {
+    StringBuilder result = new StringBuilder();
     if (s == null || s.length() <= 1) {
-      return s;
+      return result.toString();
     }
 
-    StringBuilder result = new StringBuilder();
-    
     int[] charCounts = new int[26];
     for (char c : s.toCharArray()) {
       charCounts[c - 'a']++;
@@ -23,7 +22,6 @@ public class LC1370 {
     while (len > 0) {
       int index = forward ? 0 : 25;
       int move = forward ? 1 : -1;
-
       for (int i = 0; i < 26; i++) {
         if (charCounts[index] > 0) {
           result.append((char) ('a' + index));
@@ -32,10 +30,8 @@ public class LC1370 {
         }
         index += move;
       }
-
       forward = !forward;
     }
-
     return result.toString();
   }
 }
